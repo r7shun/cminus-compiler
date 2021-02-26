@@ -1,0 +1,10 @@
+int main(void)
+{
+	int a;
+	int b;
+	a = 1;
+	a = 2 * a;
+	b = 15;
+	b = (b + 2 * a + 1) / (a *  2);
+	return b;
+}

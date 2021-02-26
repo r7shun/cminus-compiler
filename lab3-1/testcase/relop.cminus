@@ -1,0 +1,13 @@
+int main(void)
+{
+	int i;
+	i = 0;
+	output(i < 3);
+	output(i > 3);
+	output(i <= 3);
+	output(i == 3);
+	output(i >= 3);
+	output(i != 3);
+	return 0;
+
+}

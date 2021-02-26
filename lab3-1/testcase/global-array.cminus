@@ -1,0 +1,11 @@
+int a;
+void foo(void) {
+	return;
+}
+int b[1];
+int main(void) {
+	int a;
+	a = 1;
+	b[0] = 2;
+	return b[0] + a;
+}

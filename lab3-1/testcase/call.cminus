@@ -1,0 +1,6 @@
+int callee(int a){
+  return 2 * a;
+}
+int main(void){
+  return callee(10);
+}
