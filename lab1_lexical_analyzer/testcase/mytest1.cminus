@@ -1,0 +1,35 @@
+int gcd (int u, int v) { /* calculate the gcd of u and v */
+    if (v == 0) return u;
+    else return gcd(v, u - u / v * v); /* v,u-u/v*v is equals to u mod v*/
+}
+int main() {
+    &@ % /* ERROR */
+    int a , b, c;  /* INT & IDENTIFIER & COMMA & SEMICOLON */
+    a = 2; /* ASSIN */
+    b = 1;
+    c = 0; /* NUMBER */
+    c = a + b; /* ADD */
+    c = a - b; /* SUB */
+    c = a * b; /* MUL */
+    c = a / b; /* DIV */
+    c = (a < b); /* PARENTHESE & LT */
+    c = (a <= b); /* LTE */
+    c = (a > b); /* GT */
+    c = (a >= b); /* GTE */
+    c = (a == b); /* EQ */
+    c = (a != b); /* NEQ */
+    [ ] /* BRACKET */
+    [,
+    ,]
+    [] /* ARRAY */
+    {, /* BRACE */
+    }
+    if(a > b) a = a + 1; /* IF */
+    else a = b + 1; /* ELSE */
+    return 0; /* RETURN */
+    void c; /* VOID */
+    while (1) /* WHILE */
+    comment1 /* jianf
+    aifj v */ comment2
+    comment3 /* adbb */ term /* sabj */
+}

@@ -1,0 +1,19 @@
+/* just for special character tokens check.
+ * the code itself is meaningless, for it is easy to write my own tokens 
+ * and compare it.
+ */
++
+	-
+		*
+			/
+				<
+					<=
+						>
+							>=
+								==
+									!=
+										=
+; , ( ), [, ], {, }, /* hfjkdsv */ array[]
+
+/* here is illegal characters */
+! @ # $ % ^ & ~ . '' ""

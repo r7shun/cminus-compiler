@@ -1,0 +1,10 @@
+/* just for key words token check.
+ * the code itself is wrong and meaningless, for it is easy to write my own tokens.
+ */
+ void keywordscheck() {
+ 	if
+ 	else
+ 	int
+ 	while
+ 	return
+ }
